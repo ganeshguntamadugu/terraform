@@ -83,3 +83,13 @@ variable "database_route_table_tags" {
         Resource = "Database-route-table"
     }
 }
+
+variable "is_peering_required" {
+    default = true
+}
+
+variable "peering_tags" {
+    default = {
+        Resource = "Peering-connections"
+    }
+}
