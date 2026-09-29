@@ -1,5 +1,5 @@
 variable "instance_something" {
-  type        = map
+  type        = map(string)
   default     = {
     mysql = "t3.medium"
     backend = "t3.small"
