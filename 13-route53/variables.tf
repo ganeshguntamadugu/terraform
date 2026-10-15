@@ -82,7 +82,7 @@ variable "egress_protocol" {
 
 #Route53
 variable "zone_id" {
-    default = "Z04145091EI26FOSI2CQV"
+    default = "Z06290753AUUCR8QG2TO2"
 }
 
 variable "domain_name" {
